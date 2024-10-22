@@ -83,3 +83,7 @@ body {
     scale: 0.4;
   }
 }
+
+.link {
+  transform-style: preserve-3d;
+}
