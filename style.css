@@ -540,3 +540,8 @@ footer ul li a {
     gap: 3rem;
   }
 }
+
+.submit {
+  background-color: transparent;
+  border: none;
+}
