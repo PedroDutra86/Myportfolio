@@ -431,6 +431,10 @@ footer ul li a {
   .experience-img {
     width: 50vw;
   }
+  .project-card {
+    scale: 0.8;
+    margin-top: 0.6rem;
+  }
 }
 
 @media (max-width: 768px) {
@@ -544,4 +548,12 @@ footer ul li a {
 .submit {
   background-color: transparent;
   border: none;
+}
+
+.btn-group {
+  color: #2b2b2b;
+}
+
+a {
+  color: #2b2b2b;
 }

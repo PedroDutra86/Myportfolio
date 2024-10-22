@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificates</title>
+  <link rel="stylesheet" href="certificate.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="card card1">
+      <h2>HTML</h2>
+      <img src="imgs/HTML.png" alt="" class="produto">
+      <button>Acessar</button>
+    </div>
+    <div class="card card2">
+      <h2>CSS</h2>
+      <img src="imgs/CSS.png" alt="" class="produto">
+      <button>Acessar</button>
+    </div>
+    <div class="card card3">
+      <h2>Python</h2>
+      <img src="imgs/Python.png" alt="" class="produto">
+      <button>Acessar</button>
+    </div>
+  </div>
+
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 0.5,
+    });
+  </script>
+</body>
+
+</html>
