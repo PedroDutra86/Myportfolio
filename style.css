@@ -176,6 +176,10 @@ section {
   cursor: pointer;
 }
 
+#whats {
+  font-size: 1.2rem;
+}
+
 .section-title {
   text-align: center;
   font-size: 4rem;
